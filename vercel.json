@@ -8,7 +8,7 @@
     ],
     "routes" : [
         {
-            "src" : "/chats" , "dest" : "index.js"
+            "src" : "/(.*)" , "dest" : "/index.js"
         }
     ]
 }
