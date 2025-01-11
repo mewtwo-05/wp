@@ -117,9 +117,9 @@ app.delete("/chats/:id", asyncWrap(async (req,res) => {
 //     console.log(e);
 // });
 
-// app.get("/", (req,res) => {
-//     res.send("route is working! Thank you");
-// });
+app.get("/", (req,res) => {
+    res.redirect("index.ejs");
+});
 
 const handleValidationErr = (err) => {
     console.log("This was a validation error. Please follow rules");
