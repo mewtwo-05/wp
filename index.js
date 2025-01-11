@@ -118,7 +118,7 @@ app.delete("/chats/:id", asyncWrap(async (req,res) => {
 // });
 
 app.get("/", (req,res) => {
-    res.send("route is working!");
+    res.send("route is working! Thank you");
 });
 
 const handleValidationErr = (err) => {
